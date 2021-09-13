@@ -171,8 +171,8 @@ Fill up rest of the fields. Meaning of each field is discussed below:
 - `SHORTENER_API`: Fill your Shortener API key if you are using Shortener.
 - `SHORTENER`: if you want to use Shortener in G-Drive and index link, fill Shortener URL here. Examples:
 ```
-exe.io, gplinks.in, shrinkme.io, urlshortx.com, shortzon.com,
-bit.ly, shorte.st, link-to.net, up-to-down.net, direct-link.net, file-link.net
+exe.io, gplinks.in, shrinkme.io, urlshortx.com, shortzon.com, bit.ly,
+shorte.st, link-to.net, up-to-down.net, direct-link.net, file-link.net
 ```
 
 Above are the supported URL Shorteners. Except these only some URL Shorteners are supported.
@@ -204,7 +204,7 @@ python3 generate_drive_token.py
 
 ## Deploying On VPS
 
-**IMPORTANT NOTE**: In start.sh you must replace `$PORT` with 80 or any other port you want to use
+**IMPORTANT NOTE**: You must set `SERVER_PORT` variable to `80` or any other port you want to use.
 
 - Start Docker daemon (skip if already running):
 ```
